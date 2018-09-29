@@ -1,8 +1,12 @@
-" This file is loaded by ~/.vimrc.Add all configurations in this file, as this
+" This file is loaded by ~/.vimrc.
+" Add all configurations to this file, as this
 " is the recommended directory structure for portability.
 
+set nocompatible      " vim need not be compatible with vi
+
 " COLORS
-colorscheme molokai   " molokai color scheme
+" colorscheme molokai   " molokai color scheme
+colorscheme codedark  " based on Dark+ scheme of VSCode
 syntax enable         " enable syntax processing
 
 " WHITESPACE
