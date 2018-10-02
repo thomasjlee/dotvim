@@ -4,39 +4,33 @@
 
 set nocompatible      " vim need not be compatible with vi
 
-" SWAP, BACKUP, UNDO
-set backupdir=~/.vim/backup// " store swap, backup, and undo files in these dirs
-set directory=~/.vim/swap//   " '//' tells vim to avoid colliding file names
-set undodir=~/.vim/undo//
-
 " COLORS
-" colorscheme molokai           " molokai color scheme
-colorscheme codedark          " based on Dark+ scheme of VSCode
-syntax enable                 " enable syntax processing
+colorscheme codedark  " based on Dark+ scheme of VSCode
+syntax enable         " enable syntax processing
 
 " WHITESPACE
-set nowrap                    " do not automatically wrap text
-set autoindent                " apply indentation of current line to next line
-set smartindent               " be smart, vim!
-set tabstop=2					        " number of visual spaces per tab
-set softtabstop=2			        " number of spaces in tab when editing
-set shiftwidth=2              " the size of an indent, in spaces
-set expandtab					        " tabs are spaces
-set backspace=2               " go back two columns as if following indentation
+set nowrap            " do not automatically wrap text
+set autoindent        " apply indentation of current line to next line
+set smartindent       " be smart, vim!
+set tabstop=2					" number of visual spaces per tab
+set softtabstop=2			" number of spaces in tab when editing
+set shiftwidth=2      " the size of an indent, in spaces
+set expandtab					" tabs are spaces
+set backspace=2       " go back two columns as if following indentation
 
 " UI
-set ruler                     " always show current position
-set number						        " show line numbers
-set showcmd						        " show command in status line
-set cursorline				        " highlight current line
-set wildmenu					        " visual autocomplete for command menu
-set showmatch					        " highlight matching [{()}]
+set ruler             " always show current position
+set number						" show line numbers
+set showcmd						" show command in status line
+set cursorline				" highlight current line
+set wildmenu					" visual autocomplete for command menu
+set showmatch					" highlight matching [{()}]
 
 " SEARCHING
-set incsearch                 " search as characters are entered
-set hlsearch                  " highlight matches
+set incsearch         " search as characters are entered
+set hlsearch          " highlight matches
 
 " FILE NAVIGATION
-set path+=**                  " search down into subfolders
-                              " provides tab-completion for all file-related tasks
+set path+=**          " search down into subfolders
+                      " provides tab-completion for all file-related tasks
 
