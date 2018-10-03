@@ -4,13 +4,17 @@
 
 set nocompatible      " vim need not be compatible with vi
 
+" FILETYPE
+filetype on           " enable filetype detection
+filetype plugin on    " enable plugin files for detected filetypes
+filetype indent on    " enable indent files for detected filetypes
+
 " COLORS
 colorscheme codedark  " based on Dark+ scheme of VSCode
 syntax enable         " enable syntax processing
 
 " WHITESPACE
 set nowrap            " do not automatically wrap text
-set autoindent        " apply indentation of current line to next line
 set smartindent       " be smart, vim!
 set tabstop=2					" number of visual spaces per tab
 set softtabstop=2			" number of spaces in tab when editing
