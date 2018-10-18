@@ -1,3 +1,7 @@
+# plug.vim plugins directory
+plugged/*
+
+# netrw history
 .netrwhist
 
 # exclude contents of backup/, swap/, undo
