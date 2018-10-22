@@ -37,18 +37,3 @@ set hlsearch          " highlight matches
 " FILE NAVIGATION
 set path+=**          " search down into subfolders
                       " provides tab-completion for all file-related tasks
-
-" PLUG.VIM
-" specify a directory for plugins
-call plug#begin('~/.vim/plugged')
-
-Plug 'leafgarland/typescript-vim'
-
-" initialize plugin system
-call plug#end()
-
-" TYPESCRIPT.VIM
-let g:typescript_compiler_binary = 'tsc'
-let g:typescript_compiler_options = ''
-autocmd QuickFixCmdPost [^l]* nested cwindow
-autocmd QuickFixCmdPost    l* nested lwindow

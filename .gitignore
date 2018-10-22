@@ -1,16 +1,3 @@
-# plug.vim plugins directory
-plugged/*
-
 # netrw history
 .netrwhist
-
-# exclude contents of backup/, swap/, undo
-backup/*
-swap/*
-undo/*
-
-# keep those directories empty in git
-!backup/.gitkeep
-!swap/.gitkeep
-!undo/.gitkeep
 
