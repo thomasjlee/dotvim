@@ -37,3 +37,6 @@ set hlsearch          " highlight matches
 " FILE NAVIGATION
 set path+=**          " search down into subfolders
                       " provides tab-completion for all file-related tasks
+
+" PATHOGEN PLUGIN MANAGER
+execute pathogen#infect()
