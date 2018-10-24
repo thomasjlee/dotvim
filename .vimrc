@@ -1,5 +1,46 @@
-" COLORS
-colorscheme codedark  " based on Dark+ scheme of VSCode
+" Colors
+colorscheme codedark
 
-" PATHOGEN PLUGIN MANAGER
-execute pathogen#infect()
+" Map 0 to go to the first character of the line rather than column 1
+nmap 0 ^
+
+" Use space key as leader
+let mapleader="\<Space>"
+
+" Split-edit .vimrc
+nmap <leader>vr :sp $MYVIMRC<cr>
+
+" Source (reload) .vimrc
+nmap <leader>so :source $MYVIMRC<cr>
+
+" Move up and down by visible lines if current line is wrapped
+nmap j gj
+nmap k gk
+
+" Show line numbers
+set number
+
+" Keep at least 4 lines below cursor
+set scrolloff=4
+
+" Tabs are actually spaces
+set expandtab
+
+" Number of visual spaces per tab
+set tabstop=2 
+
+" The size of an indent, in spaces
+set shiftwidth=2
+
+" Highlight matching parens and brackets: [{()}]
+set showmatch
+
+" Show command in status line
+set showcmd
+
+" Highlight current line
+set cursorline
+
+" Highlight matched patterns
+set hlsearch
+
