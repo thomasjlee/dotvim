@@ -17,6 +17,10 @@ nmap <leader>so :source $MYVIMRC<cr>
 nmap j gj
 nmap k gk
 
+" Escape from insert mode easily and stay on home row
+imap jk <esc>
+imap kj <esc>
+
 " Show line numbers
 set number
 
